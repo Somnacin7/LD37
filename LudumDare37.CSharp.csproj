@@ -69,10 +69,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DestroyOffscreen.cs" />
+    <Compile Include="Assets\Scripts\FlipSprite.cs" />
+    <Compile Include="Assets\Scripts\InitialVelocityRange.cs" />
     <Compile Include="Assets\Scripts\InputHandler.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\PixelCamera.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnimatorController.cs" />
+    <Compile Include="Assets\Scripts\PlayerPickup.cs" />
+    <Compile Include="Assets\Scripts\RandomInitialRotation.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\TileSprite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
