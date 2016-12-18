@@ -71,14 +71,17 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DestroyOffscreen.cs" />
     <Compile Include="Assets\Scripts\FlipSprite.cs" />
+    <Compile Include="Assets\Scripts\GameObjectUtil.cs" />
     <Compile Include="Assets\Scripts\InitialVelocityRange.cs" />
     <Compile Include="Assets\Scripts\InputHandler.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\PixelCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimatorController.cs" />
     <Compile Include="Assets\Scripts\PlayerPickup.cs" />
     <Compile Include="Assets\Scripts\RandomInitialRotation.cs" />
+    <Compile Include="Assets\Scripts\RecycleGameObject.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\TileSprite.cs" />
   </ItemGroup>

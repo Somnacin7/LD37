@@ -23,7 +23,7 @@ public class Spawner : MonoBehaviour {
             var spawner = spawnPoints[Random.Range(0, spawnPoints.Count)];
             var item = items[Random.Range(0, items.Count)];
 
-            var go = Instantiate(item, spawner.position, Quaternion.identity, spawner);
+            var go = GameObjectUtil.Instantiate(item, spawner.position);
             SetInterval();
         }
         StartCoroutine(SpawnItem());
